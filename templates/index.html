@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Emotion Detector</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <main class="panel">
+    <h1>Emotion Detector</h1>
+    <p>Enter an English sentence to analyze its emotional tone using Watson NLP.</p>
+    <label for="textToAnalyze">Your text</label>
+    <textarea id="textToAnalyze" placeholder="I am excited about this project!"></textarea>
+    <button id="analyze">Analyze emotion</button>
+    <section id="result" aria-live="polite"></section>
+  </main>
+  <script src="/static/app.js"></script>
+</body>
+</html>
